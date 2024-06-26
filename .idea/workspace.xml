@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cf36c7-24a8-4a8b-b7ff-6333468d2f3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/TestOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/AmazonPageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/AmazonPageRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/TestOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/AmazonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utility/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/PageObject/AmazonPageRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObject/AmazonPageRepo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/PageObject/TestOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObject/TestOne.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestCase/AmazonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCase/AmazonPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utility/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utility/BaseClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +47,14 @@
     "Application.TestOne.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AmazonPage.closeBrowser.executor": "Run",
+    "TestNG.AmazonPage.executor": "Run",
     "TestNG.AmazonPage.runBrowser.executor": "Run",
     "TestNG.AmazonPage.test.executor": "Run",
     "TestNG.AmazonPage.testcase.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/b0276648/Desktop/IQPT/Tickertape",
+    "last_opened_file_path": "/Users/b0276648/Desktop/IQPT/CoforgeUITest",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -58,20 +66,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestOne">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestCase.Test" />
-      <module name="TechAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.AmazonPage.testcase">
     <configuration name="TestOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PageObject.TestOne" />
       <module name="TechAssignment" />
@@ -85,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmazonPage.runBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmazonPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TechAssignment" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +90,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestCase" />
       <option name="MAIN_CLASS_NAME" value="TestCase.AmazonPage" />
-      <option name="METHOD_NAME" value="runBrowser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonPage.closeBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TechAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCase.AmazonPage" />
+      <option name="METHOD_NAME" value="closeBrowser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestOne" />
         <item itemvalue="TestNG.AmazonPage.testcase" />
+        <item itemvalue="Application.TestOne" />
+        <item itemvalue="TestNG.AmazonPage" />
+        <item itemvalue="TestNG.AmazonPage.closeBrowser" />
         <item itemvalue="TestNG.AmazonPage.test" />
-        <item itemvalue="TestNG.AmazonPage.runBrowser" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>

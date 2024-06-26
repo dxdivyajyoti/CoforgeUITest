@@ -1,0 +1,7 @@
+/* Steps to execute test
+>add chromedriver compatible with browser version
+>Set the path
+>Download required dependecies from local maven repo/remote repo.
+
+
+** i have follwed page object model for elements
