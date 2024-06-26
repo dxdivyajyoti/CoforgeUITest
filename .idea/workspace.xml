@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cf36c7-24a8-4a8b-b7ff-6333468d2f3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/AmazonPageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/AmazonPageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/TestOne.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestCase/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase/AmazonPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utility/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/PageObject/AmazonPageRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObject/AmazonPageRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PageObject/TestOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObject/TestOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObject/TestOne.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestCase/AmazonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCase/AmazonPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utility/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utility/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utility/BaseClass.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,7 @@
     "TestNG.AmazonPage.runBrowser.executor": "Run",
     "TestNG.AmazonPage.test.executor": "Run",
     "TestNG.AmazonPage.testcase.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "coforgeBranch",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/b0276648/Desktop/IQPT/CoforgeUITest",
     "project.structure.last.edited": "Project",
@@ -154,8 +149,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AmazonPage.testcase" />
-        <item itemvalue="Application.TestOne" />
         <item itemvalue="TestNG.AmazonPage" />
+        <item itemvalue="Application.TestOne" />
         <item itemvalue="TestNG.AmazonPage.closeBrowser" />
         <item itemvalue="TestNG.AmazonPage.test" />
       </list>
@@ -182,5 +177,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/TestCase/AmazonPage.java</url>
+          <line>30</line>
+          <properties class="TestCase.AmazonPage" method="testcase">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

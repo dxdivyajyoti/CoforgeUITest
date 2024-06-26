@@ -1,9 +1,12 @@
 package Utility;
 
+import PageObject.AmazonPageRepo;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseClass {
     public static WebDriver driver;
@@ -21,18 +24,24 @@ public class BaseClass {
 
         } else if (browsername == "safari") {
 
+//add browser compatible code
+        } else {
+            //add browser compatible code
         }
 
     }
 
-    public String runTest() {
+    public String runTest() throws InterruptedException {
         if (driver == null) {
             throw new IllegalStateException("Driver is not initialized. Call runBrowser() first.");
         }
-        driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("iphone");
-        driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
-        String text = driver.findElement(By.xpath("(//div[@class='a-section a-spacing-none puis-padding-right-small s-title-instructions-style'])[1]")).getText();
-        System.out.println(text);
+
+        AmazonPageRepo amazonHomePage = new AmazonPageRepo(driver);
+        amazonHomePage.enterSearchKeyword("iphone");
+        amazonHomePage.clickSearchButton();
+        amazonHomePage.getFirstItemDetails();
+        String text = amazonHomePage.getFirstItemDetails();
+        Thread.sleep(3000);
         return text;
     }
 

@@ -5,6 +5,8 @@ import Utility.BaseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.pagefactory.ElementLocator;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -26,11 +28,13 @@ public class AmazonPage extends BaseClass {
     }
 
     @Test
-    public void testcase() {
+    public void testcase() throws InterruptedException {
 //       Enter the product name "iphone" in the search bar.
 //       Click on the search button
         expected = bs.runTest();
         System.out.println(expected);
+
+
     }
 
     @AfterTest
